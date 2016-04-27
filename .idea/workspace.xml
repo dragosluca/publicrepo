@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd2fd854-9551-4c46-9c39-67ede3b23be8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/deathstar/storageandenergy/application/ProductionApplicationService.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/deathstar/storageandenergy/domain/EnergyFactoryRepository.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DeathStarPOC.iws" />
@@ -1145,7 +1143,7 @@
       <workItem from="1461571592411" duration="448000" />
       <workItem from="1461572056677" duration="5816000" />
       <workItem from="1461734042134" duration="1478000" />
-      <workItem from="1461763014705" duration="2478000" />
+      <workItem from="1461763014705" duration="2486000" />
     </task>
     <task id="LOCAL-00001" summary="- added some samples">
       <created>1461764044088</created>
@@ -1165,11 +1163,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461764056069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- added more samples">
+      <created>1461765502312</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1461765502312</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10220000" />
+    <option name="totallyTimeSpent" value="10228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1940" height="2110" extended-state="0" />
@@ -1214,7 +1218,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- added some samples" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added some samples" />
+    <MESSAGE value="- added more samples" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added more samples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

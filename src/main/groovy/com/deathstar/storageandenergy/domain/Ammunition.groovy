@@ -4,7 +4,7 @@ import com.deathstar.storageandenergy.domain.enums.AmmunitionType
 import groovy.transform.Immutable
 
 @Immutable
-class Ammunition {
+class Ammunition extends Item {
 
     final private static double area = 1
 

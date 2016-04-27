@@ -1,18 +1,20 @@
 package com.deathstar.storageandenergy.domain
 
-class EnergyFactory {
+class EnergyFactory extends Factory {
     UUID uuid
+    String name
     Storage<Energy> factoryStorage
 
     EnergyFactory(UUID uuid) {
         this.uuid = uuid
     }
 
-    public produceEnergy( ) {
+    public void produce( ) {
+        //more complex logic can be added to produce energy based on a timer
         factoryStorage.add(new Energy())
     }
 
-    public Optional<Energy> takeEnergyItem() {
+    public Optional<Energy> takeItem() {
         factoryStorage.takeOne()
     }
 
